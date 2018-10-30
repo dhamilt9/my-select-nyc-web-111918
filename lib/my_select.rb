@@ -1,3 +1,8 @@
 def my_select(collection)
- # your code here!
+ i=0
+ collect=[]
+ while i<collection.size
+   collect<<yield
+   i+=1
+ end
 end
