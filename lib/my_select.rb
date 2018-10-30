@@ -5,4 +5,5 @@ def my_select(collection)
    collect<<yield
    i+=1
  end
+ collect
 end
